@@ -6,6 +6,9 @@ It's a social platform for gamers. Users can track what they're playing, follow 
 log activities, and receive notifications. It was built fast, it works, and nobody has
 touched it in two years. Your job is to make a few changes.
 
+> **New to the project?** Read `domain.md` first — it explains what GameHub is,
+> who the users are, and how the data connects, before you look at any code.
+
 ---
 
 ## Setup

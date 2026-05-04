@@ -13,3 +13,15 @@
 
 - pip install flask and run it
 - pip install -r requirements.txt
+
+## Proposed Structure
+
+painfulMonolitic/
+├── app.py # Everything in one file: routes, logic, DB queries
+├── models.py # Raw SQLite schema — one big shared DB, FK constraints everywhere
+├── seed.py # Pre-fills DB with realistic interconnected data
+├── requirements.txt
+├── README.md # THE EXERCISE — 5 tasks, no hints
+└── .gitignore
+
+---
